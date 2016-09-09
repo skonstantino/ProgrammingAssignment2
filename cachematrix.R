@@ -1,6 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
+## makeCacheMatrix creates a "matrix" object that can cache its inverse
+## It is a list containing a function to: set the matrix, get the matrix, set the inverse of a matrix, and get the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
  inv <- NULL
